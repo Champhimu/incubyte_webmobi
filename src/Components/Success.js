@@ -4,9 +4,9 @@ import '../App.css'
 const Success = () => {
   return (
     <>
-    <div className="third-con" id="stories">
+    <div className="success" id="stories">
       <h2>Success Stories</h2>
-        <p className="success-desc">
+        <p className="success-mssg">
         Over the years, we have helped numerous startups successfully
         establish their captive development centers. Join the roster of our
         successful collaborations.

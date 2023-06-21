@@ -9,7 +9,7 @@ const Expertise = () => {
     <h1 className='text-center p-3' style={{color: '#2849b9'}}>Our Expertise</h1>
     <Row className="justify-content-md-center">
     
-    <Col sm={12} md={3}>
+    <Col className='p-3' sm={12} md={3}>
     <Card className='multiplecard' style={{ backgroundColor: '#a2d8f2', height: '100%', border: '2px solid #ecf7fc', margin: '8px'}}>
       <Card.Body>
         <Card.Title className='text-center m-2'>Hiring</Card.Title>
@@ -20,7 +20,7 @@ const Expertise = () => {
     </Card>
     </Col>
 
-    <Col sm={12} md={3}>
+    <Col className='p-3' sm={12} md={3}>
     <Card className='multiplecard' style={{ backgroundColor: '#a2d8f2', height: '100%', border: '2px solid #ecf7fc', margin: '8px'}}>
       <Card.Body>
         <Card.Title className='text-center m-2'>Human Resources Management</Card.Title>
@@ -31,7 +31,7 @@ const Expertise = () => {
     </Card>
     </Col>
 
-    <Col sm={12} md={3}>
+    <Col className='p-3' sm={12} md={3}>
     <Card className='multiplecard' style={{ backgroundColor: '#a2d8f2', height: '100%', border: '2px solid #ecf7fc', margin: '8px'}}>
       <Card.Body>
         <Card.Title className='text-center m-2'>Taxation</Card.Title>
@@ -41,7 +41,7 @@ const Expertise = () => {
     </Card>
     </Col>
 
-    <Col sm={12} md={3}>
+    <Col className='p-3' sm={12} md={3}>
     <Card className='multiplecard' style={{ backgroundColor: '#a2d8f2', height: '100%', border: '2px solid #ecf7fc', margin: '8px'}}>
       <Card.Body>
         <Card.Title className='text-center m-2'>Regulatory Guidance</Card.Title>

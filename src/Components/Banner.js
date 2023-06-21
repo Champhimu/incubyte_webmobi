@@ -16,9 +16,9 @@ const Banner = () => {
                 </div>
             </div>
 
-            <img className='d-none d-md-block position-absolute top-50 end-0 translate-middle-y h-75' src={Ellipse2} alt="" />
-            <img className='d-none d-md-block position-absolute top-0 start-0 w-25' src={Ellipse3} alt="" />
-            <img className='d-none d-md-block position-absolute top-100 start-0 translate-middle h-50' src={Ellipse1} alt="" />
+            <img className='d-none d-md-block position-absolute top-50 end-0 translate-middle-y h-80' src={Ellipse2} alt="" />
+            <img className='position-absolute top-0 start-0 w-25' src={Ellipse3} alt="" />
+            <img className='position-absolute top-100 start-0 translate-middle h-50' src={Ellipse1} alt="" />
         </div>
     </>
   )
